@@ -16,10 +16,6 @@ h2{
 .line-block{
     display:block;
 }
-#top-banner-border{
-    border-left: 4px solid;
-    border-color:#62c8f0;
-}
 .link-button{
     text-decoration: none;
     background-color:#f36454;
@@ -33,6 +29,10 @@ h2{
     padding-left:10%;
     padding-right:10%;
 }
+#top-banner-border{
+    border-left: 4px solid;
+    border-color:#62c8f0;
+}
 .fexible-container{
     display: flex;
     margin-bottom: 50px;
@@ -44,4 +44,30 @@ h2{
 
 .half-width img{
     width:100%;
+}
+#my-mission{
+    padding-left:9%;
+    padding-right:9%;
+}
+#my-mission h2{
+    text-align: center;
+}
+.mission-container{
+    border-radius: 20px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-left:25px;
+    padding-right: 25px;
+}
+.mission-container img{
+    width:60%;
+}
+#mission-bg{
+    background-color: #94d0e748;
+}
+#vission-bg{
+    background-color: #e67ea148;
+}
+#goals-bg{
+    background-color: #ff780248;
 }
