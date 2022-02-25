@@ -75,15 +75,27 @@ h3{
 #goals-bg{
     background-color: #ff780248;
 }
-.develop-item-rightside{
+#develop-item-rightside{
     width:45%;
     padding-left:10%;
 }
-.develop-item-rightside img{
+#develop-item-rightside img{
     width:90%;
 }
-.develop-item-leftside{
+#develop-item-leftside{
     width:70%;
-    padding-right:8%;
+    padding-right:8.4%;
     padding-left: 2%;
+}
+#global-community-left-side{
+    width:65%;
+    padding-left:10%;
+}
+#global-community-right-side{
+    width:35%;
+    padding-left:4%;
+    padding-right:10%;
+}
+#global-community-right-side img{
+    width:100%;
 }
