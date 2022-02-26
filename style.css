@@ -12,7 +12,14 @@ h2{
 }
 h3{
     font-size:30px;
+    font-weight: 900;
+}
+h4{
+    font-size: 20px;
     font-weight: 700;
+}
+#margin-p{
+    margin-top: 50px;
 }
 .text-color{
     color:#4bbae6;  
@@ -20,22 +27,26 @@ h3{
 .line-block{
     display:block;
 }
+.anchor-margin{
+    margin-top: 30px;
+}
 .link-button{
     text-decoration: none;
-    background-color:#f36454;
+    background-image:linear-gradient(salmon,tomato);
     border-radius: 7px;
     color:white;
-    font-weight: 700;
+    font-weight: 400;
     padding: 15px 40px;
 }
-.top-banner{
+#top-banner{
     margin-top: 100px;
     padding-left:10%;
     padding-right:10%;
 }
 #top-banner-border{
     border-left: 4px solid;
-    border-color:#62c8f0;
+    border-image: linear-gradient(#7474df,#62c8f0);
+    border-image-slice: 1;
 }
 .fexible-container{
     display: flex;
@@ -46,7 +57,7 @@ h3{
     padding-right: 10%;
 }
 
-.top-banner .half-width img{
+#top-banner .half-width img{
     width:100%;
 }
 #my-mission{
@@ -62,6 +73,7 @@ h3{
     margin-left: 1%;
     padding-left:25px;
     padding-right: 25px;
+    padding-bottom: 25px;
 }
 .mission-container img{
     width:60%;
@@ -103,11 +115,11 @@ h3{
     padding-left: 10%;
     padding-right: 10%;
 }
-#build h2{
+#build #heading-alignment{
     text-align:center;
 }
 #build-item-left{
-    width:50%;
+    width:45%;
     padding: 0%;
     margin-top: 50px;
     margin-left: 10%;
@@ -115,10 +127,9 @@ h3{
     box-shadow: 10px 10px 40px grey;
 }
 #build-item-right{
-    width:50%;
+    width:60%;
     padding-left:15%;
-    padding-right:10%;
-    padding-top: 10%;
+    padding-top: 6%;
 }
 #build-item-left img{
     width:100%;
@@ -127,8 +138,12 @@ footer{
     background-color: black;
     color:White;
     text-align: center;
-    padding:2%;
+    padding:1%;
+    margin-top: 150px;
 }
 #fotter-heading-color{
     color:tomato;
+}
+footer h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
