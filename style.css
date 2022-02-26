@@ -123,3 +123,12 @@ h3{
 #build-item-left img{
     width:100%;
 }
+footer{
+    background-color: black;
+    color:White;
+    text-align: center;
+    padding:2%;
+}
+#fotter-heading-color{
+    color:tomato;
+}
